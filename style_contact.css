@@ -1,0 +1,106 @@
+.logo {
+    width: 165px;
+    height: 90px;
+}
+
+#navbar-example3 {
+    background-color: #212121;
+}
+
+#nav-text {
+    color: white;
+}
+
+
+#nav-text:hover{
+    color:red;
+    transition: 0.5s;
+}
+
+
+#color-boton{
+    background-color: white;   
+}
+
+#color-boton:hover{
+    color: red;
+    transition: 0.5s;
+}
+
+/* FORMULARIO DE CONTACTO */
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}   
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+}
+
+select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: red;
+}
+
+.intro-contacto {
+    text-align: center;
+    margin: auto;
+    max-width: 500px;
+}
+
+.container-info{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.iconos-info{
+    max-width: 24px;
+    max-height: 24px;
+}
+
+.contact-info{
+    display: flex;
+}

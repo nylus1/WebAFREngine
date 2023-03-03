@@ -2,10 +2,11 @@
     display: flex;
 }
 
-p{
- font-size: larger;
- font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+p {
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 .logo {
     width: 165px;
     height: 90px;
@@ -20,12 +21,12 @@ p{
 }
 
 
-#nav-text:hover{
-    color:red;
+#nav-text:hover {
+    color: red;
     transition: 0.5s;
 }
 
-span{
+span {
     color: red;
     font-weight: 500;
 }
@@ -38,15 +39,15 @@ span{
     margin-top: 120px;
 }
 
-#color-boton{
-    background-color: white;   
+#color-boton {
+    background-color: white;
 }
 
-#color-boton:hover{
+#color-boton:hover {
     color: red;
     transition: 0.5s;
 }
 
-.marcas{
+.marcas {
     margin: 20px;
 }

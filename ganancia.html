@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="style_contact.css">
+    <link rel="stylesheet" href="style_ganancia.css">
     <link rel="icon" type="image/png" href="img/AFR ENGINE-01.png" />
-    <title>Contacto</title>
+    <title>Calcula tu ganancia</title>
 
 </head>
 
@@ -20,7 +20,7 @@
     <nav id="navbar-example3" class="navbar navbar-expand-lg  barra">
         <div class="container">
             <a href="" class="navbar-brand">
-                <img src="img/no_background/isologo.png" href="C:\xampp\htdocs\WEB AFR ENGINE\Web-AFR-Engine\index.html"
+                <img src="img\no_background\isologo.png" href="C:\xampp\htdocs\WEB AFR ENGINE\Web-AFR-Engine\index.html"
                     class="logo" alt="AFR Engine">
                 <i class=""></i>
                 <!-- <span class="align-middle">Bootstrap</span> -->
@@ -39,8 +39,7 @@
                         <a href="ganancia.html" class="nav-link" id="nav-text"> CALCULA TU GANANCIA </a>
                     </li>
                     <li class="nav-item">
-                        <a href="contacto.html" class="nav-link"
-                            id="nav-text"> CONTACTO </a>
+                        <a href="contacto.html" class="nav-link" id="nav-text"> CONTACTO </a>
                     </li>
                     <li class="nav-item">
                         <a href="faq.html" class="nav-link" id="nav-text">
@@ -50,69 +49,22 @@
             </div>
         </div>
     </nav>
-    <br>
-    <div class="intro-contacto">
-        <h1>Contacto</h1>
-        <span>Si tienes cualquier duda o deseas solicitar información, cubre el siguiente formulario y estaremos
-            encantados de ayudarte. Nuestro equipo de
-            expertos estará encantado de ayudarte en todo lo que necesites. ¡Gracias por confiar en nosotros!</span>
-    </div>
-
-    <br>
-
-    <form action="#" method="post">
-        <label for="name">Nombre:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="surname">Apellidos:</label>
-        <input type="text" id="surname" name="surname" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="stage">Selecciona una opción:</label>
-        <select id="stage" name="stage">
-            <option value="stage1">Stage 1</option>
-            <option value="stage2">Stage 2</option>
-            <option value="stage3">Stage 3</option>
-            <option value="other">Otros: (Antilag, Hardlaunch, Pops & Bangs...)</option>
-        </select>
-
-        <label for="message">Mensaje:</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
-
-        <input type="submit" class="submit-button" value="Enviar">
-    </form>
-
-    <br><br>
-
-    <div class="container-info">
-        <div class="contact-info">
-            <img class="iconos-info" src="C:\xampp\htdocs\WEB AFR ENGINE\Web-AFR-Engine\img\iconos\telefono.png">
-            <a>Teléfono: </a><a href="https://api.whatsapp.com/send?phone=34640162221&text=" rel="noreferrer"
-                class="nofocus"> 640162221</a>
-        </div>
-
-        <a style="opacity: .6"> (Haz click en el número para enviar un whastapp con tu consulta)</a>
-
-        <div class="contact-info">
-            <img class="iconos-info" src="C:\xampp\htdocs\WEB AFR ENGINE\Web-AFR-Engine\img\iconos\email.png">
-            <p> Email: contacto.afrengine@gmail.com</p>
-        </div>
-        <div class="contact-info">
-            <img class="iconos-info" src="C:\xampp\htdocs\WEB AFR ENGINE\Web-AFR-Engine\img\iconos\mapa.png">
-            <p> Dirección: Ajedrea 13-15, Zaragoza</p>
-        </div>
-        <div class="contact-info">
-            <img class="iconos-info" src="C:\xampp\htdocs\WEB AFR ENGINE\Web-AFR-Engine\img\iconos\horario.png">
-            <p> Horario: Lunes a Viernes 9:00-17:00</p>
-        </div>
-    </div>
-
 
 
     <br><br>
+    <div class="container-iframe text-center" style="margin-bottom: 375px;">
 
+        <h1>Calcula tu ganancia</h1><br>
+        <p>¿Quieres saber en que cifras se quedará tu vehiculo despues de pasar por nuestras instalaciones?<br>
+            Selecciona marca, modelo y motor de tu vehiculo para ver todos sus datos, asi como la ganancia que
+            obtendrás.
+        </p>
+        <br>
+        <iframe src="https://tuning-shop.com/iframe/iframe.php?user=5942" width="100%" height="auto" scrolling="no"
+            frameborder="0" style="border: 0;"></iframe>
+
+    </div>
+    <br>
     <!-- SCRIPTS BOOSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
@@ -121,6 +73,8 @@
         integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
         crossorigin="anonymous"></script>
 
+    <!-- SCRIPT DEL IFRAME TUNING-SHOP -->
+    <script src="https://tuning-shop.com/media/js/iframe-loader.js"></script>
 
 </body>
 

@@ -1,12 +1,12 @@
 body {
     font-size: large;
     font-family: 'Lato', sans-serif;
+    text-align: center;
 }
 
 h1{
     font-style: italic;        
 }
-
 
 .logo {
     width: 165px;
@@ -25,6 +25,36 @@ h1{
 #nav-text:hover {
     color: red;
     transition: 0.5s;
+}
+
+span {
+    color: red;
+    font-weight: 500;
+}
+
+#color-boton {
+    background-color: white;
+}
+
+#color-boton:hover {
+    color: red;
+    transition: 0.5s;
+}
+.card-marcas{
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 5px;
+}
+.marcas{
+    margin: 10px;
+}
+
+h3 {
+    color: red;
+    text-decoration: underline;
 }
 
 /* FOOTER */

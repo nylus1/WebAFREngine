@@ -5,6 +5,7 @@ body {
 
 h1{
     font-style: italic;        
+    text-align: center;
 }
 
 .logo {
@@ -37,11 +38,13 @@ span {
 
 #color-boton {
     background-color: white;
+    border: 1px #212121;
+    transition: 0.5s;
 }
 
 #color-boton:hover {
-    color: red;
-    transition: 0.5s;
+    border: 1px red;
+
 }
 .card-marcas{
     flex-basis: calc(33.33% - 20px);
@@ -55,6 +58,57 @@ span {
     margin: 10px;
 }
 
+
+/* Ganancia */
+
+.container-ganancia{
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url('img/ganancia_background.jpg');
+background-size: cover;
+z-index: 1;
+
+}
+
+.seccion-ganancia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+button{
+    background-color: #ff0000;
+    color: #fff;
+    border: 2px solid #fff;;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #ff0000;
+    border: 2px solid #ff0000;
+    }
+
+.img-ganancia{
+ display: block;
+ max-width: 100%;
+ height: auto;
+ margin: auto;
+}
+
+.ganancia-text{
+    margin-top: 20px;
+    font-size: x-large;
+}
 
 /* CARTAS SERVICIOS */
 
@@ -92,11 +146,18 @@ span {
   .card button {
     background-color: #ff0000;
     color: #fff;
-    border: none;
+    border: 2px solid #fff;;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    transition: all 0.3s ease;
   }
+
+.card button:hover {
+    background-color: #fff;
+    color: #ff0000;
+    border: 2px solid #ff0000;
+    }
   
   @media screen and (max-width: 768px) {
     .card-container {
@@ -116,6 +177,7 @@ footer {
     background-color: #212121;
     color: #fff;
     padding: 5px;
+    z-index: -1;
 }
 
 .container-footer {

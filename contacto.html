@@ -33,14 +33,14 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a href="quiensomos.html" class="nav-link " aria-current="page" id="nav-text"> QUIENES SOMOS </a>
+                        <a href="quiensomos.html" class="nav-link " aria-current="page" id="nav-text"> QUIENES SOMOS
+                        </a>
                     </li>
                     <li class="nav-item">
                         <a href="ganancia.html" class="nav-link" id="nav-text"> CALCULA TU GANANCIA </a>
                     </li>
                     <li class="nav-item">
-                        <a href="contacto.html" class="nav-link"
-                            id="nav-text"> CONTACTO </a>
+                        <a href="contacto.html" class="nav-link" id="nav-text"> CONTACTO </a>
                     </li>
                     <li class="nav-item">
                         <a href="faq.html" class="nav-link" id="nav-text">
@@ -62,7 +62,7 @@
 
     <br>
 
-    <form action="#" method="post">
+    <form action="https://formsubmit.co/e8df073e33498d7dd8948210f946b8e6" method="POST">
         <label for="name">Nombre:</label>
         <input type="text" id="name" name="name" required>
 
@@ -84,9 +84,15 @@
         <textarea id="message" name="message" rows="5" required></textarea>
 
         <input type="submit" class="submit-button" value="Enviar">
-    </form>
 
-    <br><br>
+        <!-- API FORMSUBMIT -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="http://localhost/WEB%20AFR%20ENGINE/Web-AFR-Engine/">
+        <input type="hidden" name="_subject" value="Nuevo formulario de contacto en AFR Engine">
+        <input type="hidden" name="_autoresponse"
+            value="Hemos recibido tu consulta, nos pondremos en contacto contigo lo antes posible.">
+        <input type="hidden" name="_template" value="table">
+    </form>
 
     <div class="container-info">
         <div class="contact-info">
@@ -109,6 +115,18 @@
             <img class="iconos-info" src="img\iconos\horario.png">
             <p> Horario: Lunes a Viernes 9:00-17:00</p>
         </div>
+    </div>
+
+    <br><br>
+
+    <h3 style="text-align: center;">Donde encontrarnos:</h3>
+    <br>
+    <div class="container-mapa text-center">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14195.390688382044!2d-0.842809550938637!3d41.58626840916628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd593d87922cd045%3A0x40b38bab4b537072!2sAFR%20Engine!5e0!3m2!1ses!2ses!4v1678735034333!5m2!1ses!2ses"
+            width="600" height="450" style="border:2px;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
     </div>
 
     <br><br>
@@ -136,8 +154,7 @@
                         CONDICIONES </a>
                 </li>
                 <li>
-                    <a href="contacto.html" class="nav-link"
-                        id="nav-text"> CONTACTO </a>
+                    <a href="contacto.html" class="nav-link" id="nav-text"> CONTACTO </a>
                 </li>
                 <li>
                     <a href="faq.html" class="nav-link" id="nav-text">

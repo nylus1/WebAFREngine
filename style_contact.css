@@ -32,15 +32,15 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1{
-    font-style: italic;        
+h1 {
+    font-style: italic;
 }
 
 /* FORMULARIO DE CONTACTO */
 
 form {
     max-width: 500px;
-    margin: 0 auto;
+    margin: 20px 20px;
     padding: 20px;
     background-color: #f7f7f7;
     border-radius: 5px;
@@ -98,7 +98,7 @@ select {
 
 .container-info {
     max-width: 500px;
-    margin: 0 auto;
+    margin: 20px 20px;
     padding: 20px;
     background-color: #f7f7f7;
     border-radius: 5px;
@@ -151,11 +151,11 @@ nav ul li a {
 }
 
 @media (max-width: 950px) {
-    
-body{
-    font-size:medium;
-}
-    
+
+    body {
+        font-size: medium;
+    }
+
     .container-footer {
         flex-direction: column;
         margin-left: 50px;
@@ -174,5 +174,14 @@ body{
 
     nav ul li {
         margin: 5px 0;
+    }
+}
+
+@media (max-width: 821px) {
+    iframe {
+        width: 351px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

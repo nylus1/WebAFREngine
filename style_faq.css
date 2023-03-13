@@ -32,8 +32,8 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1{
-    font-style: italic;        
+h1 {
+    font-style: italic;
 }
 
 /* FAQ */
@@ -80,11 +80,11 @@ nav ul li a {
 }
 
 @media (max-width: 950px) {
-    
-body{
-    font-size:medium;
-}
-    
+
+    body {
+        font-size: medium;
+    }
+
     .container-footer {
         flex-direction: column;
         margin-left: 50px;

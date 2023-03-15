@@ -21,6 +21,11 @@ h1 {
     color: white;
 }
 
+.navbar {
+    
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
 
 #nav-text:hover {
     color: red;

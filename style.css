@@ -335,3 +335,21 @@ nav ul li a {
         margin-right: auto;
     }
 }
+
+/* TRANSICION ENTRE PÁGINAS */
+
+/* Apply this style to your page wrapper element */
+.page-wrapper {
+    position: relative;
+  }
+  
+  /* Apply this style to your page content element */
+  .page-content {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  /* Apply this style to the page content element when it is shown */
+  .page-content.show {
+    opacity: 1;
+  }

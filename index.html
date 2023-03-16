@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/eec1a70203.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -53,9 +54,9 @@
 
     <!-- CONTENIDO -->
 
-    <div class="container">
+    <div class="container pop">
         <br>
-        <div class="container text-center">
+        <div class="container text-center pop">
             <h1>QUE ES REPROGRAMAR</h1>
             <p>Una <span>reprogramación</span> de motor es un cambio o modificación en la programación almacenada en la
                 centralita
@@ -73,7 +74,7 @@
 
         <br><br>
 
-        <div class="container-marcas">
+        <div class="container-marcas pop">
             <h1 style="text-align: center">ESPECIALISTAS EN LAS SIGUIENTES MARCAS</h1>
             <div class="card-marcas"><a><img
                         src="https://sparkload.es/wp-content/uploads/2016/07/abarth_T2.png"></a><a><img class="marcas"
@@ -144,11 +145,11 @@
 
         <br><br>
 
-        <h1>REDESCUBRE EL POTENCIAL DE TU COCHE</h1>
+        <h1 class="fade-in">REDESCUBRE EL POTENCIAL DE TU COCHE</h1>
 
         <br>
 
-        <div class="container-ganancia">
+        <div class="container-ganancia fade-in">
             <div class="seccion-ganancia">
                 <p class="ganancia-text"><br><br>SELECCIONA EL MODELO DE TU COCHE Y DESCUBRE CUANTOS CV TIENES
                     OCULTOS:<br><br><br></p>
@@ -157,9 +158,9 @@
         </div>
 
         <br><br>
-        <h1>DONDE ESTAMOS</h1>
+        <h1 class="fade-in">DONDE ESTAMOS</h1>
         <br>
-        <div class="container-contacto">
+        <div class="container-contacto fade-in">
 
             <div class="container-mapa">
                 <iframe
@@ -213,7 +214,9 @@
     <!-- SCRIPT DEL IFRAME TUNING-SHOP -->
     <script src="https://tuning-shop.com/media/js/iframe-loader.js"></script>
 
-    </div>
+    <!-- SCRIPTS HECHOS A MANO -->
+    <script src="fade-in.js"> </script>
+    <script src="loading.js"></script>
 
 </body>
 

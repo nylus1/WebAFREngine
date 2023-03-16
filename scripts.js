@@ -1,3 +1,0 @@
-// barba.init({
-//     transitions:[{}]     
-// });

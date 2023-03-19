@@ -28,7 +28,7 @@ h1 {
 }
 
 .navbar {
-    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 span {
@@ -341,15 +341,93 @@ nav ul li a {
 /* Apply this style to your page wrapper element */
 .page-wrapper {
     position: relative;
-  }
-  
-  /* Apply this style to your page content element */
-  .page-content {
+}
+
+/* Apply this style to your page content element */
+.page-content {
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
-  }
-  
-  /* Apply this style to the page content element when it is shown */
-  .page-content.show {
+}
+
+/* Apply this style to the page content element when it is shown */
+.page-content.show {
     opacity: 1;
-  }
+}
+
+
+.containermarcas {
+
+    width: 100%;
+    height: 100%;
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   
+  
+   
+   
+
+}
+
+.containermarca3{
+
+
+
+}
+.marcas-div {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+   
+   
+ 
+
+}
+
+.marca {
+    height: 150px;
+    width: 150px;
+    display: block;
+    
+}
+/* query marcas */
+@media (max-width: 764px) {
+    .containermarcas {
+
+       display: none;
+       
+       
+       
+    
+    }
+    
+
+}
+
+
+
+@media (min-width: 766px) {
+    .containermarca3 {
+
+       display: none;
+       
+       
+       
+    
+    }
+
+
+}
+
+
+
+.space{
+    width: 100px;
+    margin-left: 140px;
+}
+
+

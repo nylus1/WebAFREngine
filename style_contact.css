@@ -193,3 +193,70 @@ nav ul li a {
         margin-right: auto;
     }
 }
+
+
+.centralsection{
+margin-top: 50px;
+display: flex;
+width: 80%;
+justify-content: space-around;
+align-items: center;
+
+
+
+
+}
+
+.form-div{
+
+display: flex;
+flex-direction: column;
+padding: 20px;
+
+
+
+}
+.fade-in{
+    
+}
+.container-mapa{
+
+  display: flex;
+  display: block;
+}
+
+.ocultar-mapa{
+    display: none;
+}
+
+
+@media (min-width: 1343px) {
+
+    .query-contact{
+
+        display: none;
+    }
+    
+   
+   
+     
+    
+
+  
+}
+
+@media (max-width: 1343px) {
+
+    .centralsection{
+         
+        display: none;
+    }
+   
+ .fade-in2{
+    display: none;
+   }
+
+  
+}
+
+

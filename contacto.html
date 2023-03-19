@@ -8,18 +8,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="style_contact.css">
-    <link rel="icon" type="image/png" href="img/AFR ENGINE-01.png" />
+    <link rel="icon" type="image/png" href="img/AFR ENGINE-01.png">
     <title>Contacto</title>
 
 </head>
 
 <body>
 
-    <!-- Barra de navegación superior -->
+
 
     <nav id="navbar-example3" class="navbar navbar-expand-lg  barra sticky-top">
         <div class="container">
-            <a href="" class="navbar-brand">
+            <a href="index.html" class="navbar-brand">
                 <img src="img/no_background/isologo.png" href="C:\xampp\htdocs\WEB AFR ENGINE\Web-AFR-Engine\index.html"
                     class="logo" alt="AFR Engine">
                 <i class=""></i>
@@ -62,39 +62,73 @@
 
     <br>
 
-    <form class= "pop" action="https://formsubmit.co/e8df073e33498d7dd8948210f946b8e6" method="POST">
-        <label for="name">Nombre:</label>
-        <input type="text" id="name" name="name" required>
 
-        <label for="surname">Apellidos:</label>
-        <input type="text" id="surname" name="surname" required>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+    <div class="centralsection">
 
-        <label for="stage">Selecciona una opción:</label>
-        <select id="stage" name="stage">
-            <option value="stage1">Stage 1</option>
-            <option value="stage2">Stage 2</option>
-            <option value="stage3">Stage 3</option>
-            <option value="other">Otros: (Antilag, Hardlaunch, Pops & Bangs...)</option>
-        </select>
+        <div class="form-div">
 
-        <label for="message">Mensaje:</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
+            <form class="pop" action="https://formsubmit.co/e8df073e33498d7dd8948210f946b8e6" method="POST">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
 
-        <input type="submit" class="submit-button" value="Enviar">
+                <label for="surname">Apellidos:</label>
+                <input type="text" id="surname" name="surname" required>
 
-        <!-- API FORMSUBMIT -->
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="http://localhost/WEB%20AFR%20ENGINE/Web-AFR-Engine/">
-        <input type="hidden" name="_subject" value="Nuevo formulario de contacto en AFR Engine">
-        <input type="hidden" name="_autoresponse"
-            value="Hemos recibido tu consulta, nos pondremos en contacto contigo lo antes posible.">
-        <input type="hidden" name="_template" value="table">
-    </form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
 
-    <div class="container-info fade-in">
+                <label for="stage">Selecciona una opción:</label>
+                <select id="stage" name="stage">
+                    <option value="stage1">Stage 1</option>
+                    <option value="stage2">Stage 2</option>
+                    <option value="stage3">Stage 3</option>
+                    <option value="other">Otros: (Antilag, Hardlaunch, Pops & Bangs...)</option>
+                </select>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <input type="submit" class="submit-button" value="Enviar">
+
+                <!-- API FORMSUBMIT -->
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://localhost/WEB%20AFR%20ENGINE/Web-AFR-Engine/">
+                <input type="hidden" name="_subject" value="Nuevo formulario de contacto en AFR Engine">
+                <input type="hidden" name="_autoresponse"
+                    value="Hemos recibido tu consulta, nos pondremos en contacto contigo lo antes posible.">
+                <input type="hidden" name="_template" value="table">
+            </form>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="container-mapa text-center mapa-ocultar fade-in">
+            
+            <h2>Donde encontrarnos:</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14195.390688382044!2d-0.842809550938637!3d41.58626840916628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd593d87922cd045%3A0x40b38bab4b537072!2sAFR%20Engine!5e0!3m2!1ses!2ses!4v1678735034333!5m2!1ses!2ses"
+                width="600" height="450" style="border:2px;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+        
+
+
+
+    </div>
+    
+    <div class="container-info fade-in2">
         <div class="contact-info">
             <img class="iconos-info" src="img\iconos\telefono.png">
             <a>Teléfono: </a><a href="https://api.whatsapp.com/send?phone=34640162221&text=" rel="noreferrer"
@@ -117,19 +151,85 @@
         </div>
     </div>
 
-    <br><br>
 
-    <h3 class="fade-in" style="text-align: center;">Donde encontrarnos:</h3>
-    <br>
-    <div class="container-mapa text-center fade-in">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14195.390688382044!2d-0.842809550938637!3d41.58626840916628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd593d87922cd045%3A0x40b38bab4b537072!2sAFR%20Engine!5e0!3m2!1ses!2ses!4v1678735034333!5m2!1ses!2ses"
-            width="600" height="450" style="border:2px;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
+
+
+
+  <!-- mediaquery -->
+    <div class="query-contact">
+        <form class="pop" action="https://formsubmit.co/e8df073e33498d7dd8948210f946b8e6" method="POST">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="surname">Apellidos:</label>
+            <input type="text" id="surname" name="surname" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="stage">Selecciona una opción:</label>
+            <select id="stage" name="stage">
+                <option value="stage1">Stage 1</option>
+                <option value="stage2">Stage 2</option>
+                <option value="stage3">Stage 3</option>
+                <option value="other">Otros: (Antilag, Hardlaunch, Pops & Bangs...)</option>
+            </select>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <input type="submit" class="submit-button" value="Enviar">
+
+            <!-- API FORMSUBMIT -->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="http://localhost/WEB%20AFR%20ENGINE/Web-AFR-Engine/">
+            <input type="hidden" name="_subject" value="Nuevo formulario de contacto en AFR Engine">
+            <input type="hidden" name="_autoresponse"
+                value="Hemos recibido tu consulta, nos pondremos en contacto contigo lo antes posible.">
+            <input type="hidden" name="_template" value="table">
+        </form>
+          
+
+        <div class="container-mapa text-center fade-in ">
+            <h2>Donde encontrarnos:</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14195.390688382044!2d-0.842809550938637!3d41.58626840916628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd593d87922cd045%3A0x40b38bab4b537072!2sAFR%20Engine!5e0!3m2!1ses!2ses!4v1678735034333!5m2!1ses!2ses"
+                width="600" height="450" style="border:2px;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+
+
+        <div class="container-info ">
+            <div class="contact-info">
+                <img class="iconos-info" src="img\iconos\telefono.png">
+                <a>Teléfono: </a><a href="https://api.whatsapp.com/send?phone=34640162221&text=" rel="noreferrer"
+                    class="nofocus"> 640162221</a>
+            </div>
+    
+            <a style="opacity: .6"> (Haz click en el número para enviar un whastapp con tu consulta)</a>
+    
+            <div class="contact-info">
+                <img class="iconos-info" src="img\iconos\email.png">
+                <p> Email: contacto.afrengine@gmail.com</p>
+            </div>
+            <div class="contact-info">
+                <img class="iconos-info" src="img\iconos\mapa.png">
+                <p> Dirección: Ajedrea 13-15, Zaragoza</p>
+            </div>
+            <div class="contact-info">
+                <img class="iconos-info" src="img\iconos\horario.png">
+                <p> Horario: Lunes a Viernes 9:00-17:00</p>
+            </div>
+        </div>
+
+
+
+
     </div>
 
-    <br><br>
+
 
     <!-- SCRIPTS BOOSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"

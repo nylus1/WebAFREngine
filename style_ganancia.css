@@ -67,6 +67,34 @@ nav ul li a {
     max-width: 200px;
 }
 
+
+button {
+    background-color: #ff0000;
+    color: #fff;
+    border: 2px solid #fff;
+    ;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #ff0000;
+    border: 2px solid #ff0000;
+}
+
+#color-boton {
+    background-color: white;
+    border: 1px #212121;
+    transition: 0.5s;
+}
+
+#color-boton:hover {
+    border: 1px red;
+
+}
 @media (max-width: 950px) {
 
     body {

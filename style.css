@@ -1,6 +1,7 @@
 body {
     font-size: large;
     font-family: 'Lato', sans-serif;
+   
 }
 
 h1 {
@@ -371,11 +372,7 @@ nav ul li a {
 
 }
 
-.containermarca3{
 
-
-
-}
 .marcas-div {
 
     width: 100%;
@@ -394,8 +391,17 @@ nav ul li a {
     display: block;
     
 }
+
+ .containerspace{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   width: 100%;
+  
+   
+} 
 /* query marcas */
-@media (max-width: 764px) {
+@media (max-width: 724px) {
     .containermarcas {
 
        display: none;
@@ -404,30 +410,33 @@ nav ul li a {
        
     
     }
+
+    
+   
     
 
 }
 
+@media(min-width:724px){
 
-
-@media (min-width: 766px) {
-    .containermarca3 {
-
-       display: none;
-       
-       
-       
-    
+    .containerspace{
+        display: none;
     }
 
-
 }
 
 
+ 
+    
+    
 
-.space{
-    width: 100px;
-    margin-left: 140px;
+
+
+
+
+
+
+.containermarcas-div2{
+    margin-left: 80px;
 }
-
 
